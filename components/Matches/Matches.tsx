@@ -48,8 +48,7 @@ const Matches = () => {
   }, [matches, matchStatus]);
 
   return (
-    <Scrollbar>
-      {" "}
+    <>
       <div className="relative flex h-full w-screen flex-col pb-16 pl-3 pt-24">
         <MatchStatus />
 
@@ -104,7 +103,7 @@ const Matches = () => {
           )}
         </div>
       </div>
-    </Scrollbar>
+    </>
   );
 };
 
