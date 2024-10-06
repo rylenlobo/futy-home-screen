@@ -5,7 +5,7 @@ import useMatchesStore from "@/store/matchesStore";
 import MatchCard from "./MatchCard";
 import MatchStatus from "./MatchStatus";
 import { AnimatePresence, motion } from "framer-motion";
-import Scrollbar from "../Scrollbar";
+
 
 const Matches = () => {
   const { matches, matchStatus } = useMatchesStore((state) => state);
